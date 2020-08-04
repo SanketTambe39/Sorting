@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "Conflict created by Vivek"
 declare -A compDict
 
 read -p " Enter number first number " num1
