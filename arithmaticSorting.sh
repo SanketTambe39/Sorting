@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/bash -x
 
+declare -A compDict
 
 read -p " Enter number first number " num1
 read -p " Enter number first number " num2
@@ -23,3 +24,9 @@ opration4=$(($num1%$num2+$num3))
 
 echo "Answer Of fourth opration is "$opration4
 
+compDict[op1]=$opration1
+compDict[op2]=$opration2
+compDict[op3]=$opration3
+compDict[op4]=$opration4
+
+echo ${compDict[@]}
