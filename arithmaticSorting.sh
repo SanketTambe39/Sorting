@@ -1,5 +1,5 @@
 #!/bin/bash
-echo " Changed the conflict by Sanket "
+echo " changed by sanket again "
 
 declare -A compDict
 
