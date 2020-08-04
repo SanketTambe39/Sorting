@@ -1,5 +1,5 @@
 #!/bin/bash
-echo " Changed the conflict by Sanket "
+echo " Changed the conflict by Shubham "
 
 declare -A compDict
 
