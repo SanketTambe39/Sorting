@@ -9,8 +9,12 @@ echo "Your input is :: "$num1" "$num2" "$num3
 
 opration1=$(($num1+$num2*$num3))
 
-echo "Answer of First opratin is "$opration1
+echo "Answer of First opration is "$opration1
 
-opration2=$$(($num1*$num2+$num3))
+opration2=$(($num1*$num2+$num3))
 
-echo "Answer of Second opratin is "$opration2
+echo "Answer of Second opration is "$opration2
+
+opration3=$(($num3+$num1/$num2))
+
+echo "Answer of third opration is "$opration3
