@@ -46,8 +46,9 @@ do
 	descArray[j]=${sortedArray[i]}
 done
 
-echo "Desending array is :: "${descArray[@]}
+echo "Array after Sorting in Descending order :: "${descArray[@]}
 
+echo "Array after sorting in Ascending order :: " ${sortedArray[@]}
 
 
 
