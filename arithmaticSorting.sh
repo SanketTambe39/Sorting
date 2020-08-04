@@ -7,3 +7,6 @@ read -p " Enter number first number " num3
 
 echo "Your input is :: "$num1" "$num2" "$num3
 
+opration1=$(($num1+$num2*$num3))
+
+echo "Answer of First opratin is "$opration1
