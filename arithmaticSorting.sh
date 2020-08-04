@@ -38,3 +38,30 @@ do
 done
 
 echo "Data from array :: "${compArr[@]}
+
+sortedArray=($(echo ${compArr[*]} | tr " " "\n" | sort -n))
+
+for ((i=4,j=0;i>=0;i--,j++))
+do
+	descArray[j]=${sortedArray[i]}
+done
+
+echo "Desending array is :: "${descArray[@]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
